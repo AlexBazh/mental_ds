@@ -131,3 +131,23 @@ a:hover{
 .scheme{
     width: 800px;
 }
+
+.up_to{
+    border: none;
+    background: #2b2c30;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 24px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 4px;
+}
+
+.up_to:hover{
+    background: #35363a;
+}
