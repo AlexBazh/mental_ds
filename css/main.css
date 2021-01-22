@@ -10,7 +10,10 @@
 
 .header{
     background: #1F2023;
-    padding: 24px 0
+    padding: 24px 0;
+    position: fixed;
+    top: 0%;
+    width: 100%;
 }
 
 .header__content{
@@ -48,8 +51,13 @@
     color: #fff;
 }
 
+aside{
+    position: fixed;
+}
+
 .description{
-    margin-top: 76px;
+    margin-top: 154px;
+    
 }
 
 h1{
@@ -58,16 +66,25 @@ h1{
     font-size: 44px;
     line-height: 48px;
     color: #FFFFFF;
-    padding: 12px 0px 24px;
+    padding: 0px 0px 24px;
 }
 
-h3{
+h4{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
-    padding: 28px 0px 8px;
+    padding: 16px 0px 12px;
+}
+
+h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 0px 12px;
 }
 
 p{
@@ -75,8 +92,8 @@ p{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #FFFFFF;
-    padding: 8px 0px 8px;
+    color: rgb(255, 255, 255, 0.8);
+    padding: 8px 0px 12px;
 }
 
 a{
@@ -109,4 +126,8 @@ a:hover{
 
 .side__item:hover{
     color: #0aa86c;
+}
+
+.scheme{
+    width: 800px;
 }
