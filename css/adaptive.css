@@ -1,0 +1,20 @@
+@media screen and (max-width: 1080px){
+    .header__nav{
+        display: none;
+    }
+    aside{
+        position: static;
+    }
+    .scheme{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    aside{
+        position: static;
+    }
+    .scheme{
+        width: 100%;
+    }
+}

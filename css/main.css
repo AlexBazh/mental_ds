@@ -116,7 +116,7 @@ a:hover{
 }
 
 .side__nav{
-    padding: 8px 28px 0px;
+    padding: 12px 28px 0px;
     border-left: 1px solid #fff;
 }
 
@@ -176,4 +176,22 @@ footer{
 .sign{
     color: rgb(255, 255, 255, 0.1);
     cursor: progress;
+}
+
+
+
+
+@media screen and (max-width: 1080px){
+    .header__nav{
+        display: none;
+    }
+    aside{
+        position: static;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .scheme{
+        width: 100%;
+    }
 }
